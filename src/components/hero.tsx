@@ -1,13 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
 
-export default function Hero() {
+export default function Herosection() {
   return (
+
     <div className="bg-[#F2F0FF] w-full h-auto flex flex-col lg:flex-row items-center justify-around p-4 lg:p-10">
       <div className="flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-8">
         <Image
-          src="/hero1.png"
-          alt="Hero"
+          src="/images/heroS/lamp.png"
+          alt='lamp image'
           width={380}
           height={300}
           className="w-[260px] h-[200px] md:w-[300px] md:h-[240px] xl:w-[380px] xl:h-[300px]"
@@ -16,7 +17,7 @@ export default function Hero() {
           <h4 className="text-[#FB2E86] text-[16px] font-[lato] font-bold">
             Best Furniture For Your Castle...
           </h4>
-          <h2 className="text-[24px] md:text-[36px]  font-bold font-[Josefin Sans] mt-2">
+          <h2 className="text-[24px] md:text-[36px] xl:text-[45px] font-bold \     mt-2">
             New Furniture Collection <br /> Trends in 2020
           </h2>
           <p className="text-[14px] md:text-[16px] font-[lato] mt-4">
@@ -37,7 +38,7 @@ export default function Hero() {
 
         {/* Hero Image */}
         <Image
-          src="/hero2.png"
+          src="/images/heroS/armch.png"
           alt="Hero"
           width={900}
           height={900}
@@ -56,3 +57,4 @@ export default function Hero() {
     </div>
   );
 }
+ 

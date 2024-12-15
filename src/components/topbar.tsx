@@ -3,11 +3,11 @@ import React from 'react';
 
 const Topbar = () => {
     return (
-        <div className="bg-purple-600  text-sm py-2 px-4 ">
+        <div className="bg-purple-600  text-sm py-2 px-4 hidden sm:flex ">
             {/* Container for centering the layout */}
-            <div className="flex-grow mx-auto text-white  max-w-screen-xl">
+            <div className="flex-grow mx-auto text-white   px-4 md:px-6 lg:px-8  max-w-7xl ">
             {/* <div className="flex justify-center items-center  w-full max-w-7xl"> */}
-                <nav className="w-full flex flex-wrap justify-between items-center">
+                <nav className="w-full flex  justify-between items-center flex-wrap">
                     {/* Left Section */}
                     <div className="flex flex-wrap gap-4 md:gap-8 items-center justify-center">
                         <div className="flex items-center gap-2">
@@ -21,7 +21,7 @@ const Topbar = () => {
                     </div>
 
                     {/* Right Section */}
-                    <div className="flex flex-wrap gap-4 md:gap-6 items-center justify-center mt-2 md:mt-0">
+                    <div className="flex flex-wrap gap-4 md:gap-6 items-center justify-center ">
                         <div className="flex items-center">
                             <p>English</p>
                             <ChevronDown className="w-4 h-4" />
