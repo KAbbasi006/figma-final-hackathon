@@ -66,7 +66,7 @@ const CartPage: React.FC = () => {
           <h2 className="text-[#101750] text-[26px] md:text-[36px] font-[700]">
             Shopping Cart
           </h2>
-          <Link href="" className="px-2 ">
+          <Link href="/" className="px-2 ">
             Home.
           </Link>
           <Link href="">Pages.</Link>

@@ -23,7 +23,7 @@ export default function grids() {
       <div className="w-full h-[286px] bg-[#F6F5FF]">
         <div className="max-w-7xl mx-auto  py-24 text text-center sm:text-left md:px-6 lg:px-8">
           <h2 className="text-[#101750] text-[26px] md:text-[36px] font-[700]">Shop Grid Default</h2>
-          <Link href="" className="px-2">Home.</Link>
+          <Link href="/" className="px-2">Home.</Link>
           <Link href="">Pages.</Link>
           <Link href="/grid" className="text-[#FB2E86] text-[16px] font-[500] px-2">Shop Grid Default</Link>
         </div>

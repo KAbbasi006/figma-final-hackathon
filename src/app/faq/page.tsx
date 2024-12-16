@@ -12,7 +12,7 @@ const FAQPage = () => {
                     <h2 className="text-[#101750] text-[26px] md:text-[36px] font-[700]">
                         FAQ
                     </h2>
-                    <Link href="" className="px-2">
+                    <Link href="/" className="px-2">
                         Home.
                     </Link>
                     <Link href="">Pages.</Link>
@@ -25,9 +25,9 @@ const FAQPage = () => {
             {/* Content */}
             <main className="flex flex-col items-center py-12 px-4 w-full max-w-7xl">
                 {/* General Info & Form */}
-                <div className="flex flex-grow flex-wrap md:flex-nowrap justify-between w-full gap-8">
+                <div className="flex flex-col md:flex-row md:items-start md:justify-between w-full gap-8">
                     {/* General Information */}
-                    <div className="w-full flex-1 md:w-1/2 mx-0 sm:mx-4 md:mx-8 mt-16 px-4 sm:px-6 md:px-12">
+                    <div className="w-full md:w-1/2 mx-0 sm:mx-4 px-4 sm:px-6 md:px-12 mt-8">
                         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1D3178] mb-6 sm:mb-8 md:mb-14">
                             General Information
                         </h2>
@@ -47,11 +47,11 @@ const FAQPage = () => {
                     </div>
 
                     {/* Ask a Question Form */}
-                    <div className="w-full flex-1 md:w-1/2 bg-[#F8F8FD] mx-0 sm:mx-4 md:mx-10 mt-16 px-4 sm:px-6 md:px-10">
+                    <div className="w-full md:w-1/2 bg-[#F8F8FD] mx-0 sm:mx-4 px-4 sm:px-6 md:px-10 mt-8">
                         <h2 className="text-xl sm:text-2xl md:text-2xl font-bold text-[#1D3178] mt-6 sm:mt-8 md:mt-16">
                             Ask a Question
                         </h2>
-                        <form className="mt-10 sm:mt-16 md:mt-28 space-y-4 sm:space-y-6">
+                        <form className="mt-6 sm:mt-10 space-y-4 sm:space-y-6">
                             <input
                                 type="text"
                                 placeholder="Your Name"
@@ -83,4 +83,3 @@ const FAQPage = () => {
 };
 
 export default FAQPage;
-
